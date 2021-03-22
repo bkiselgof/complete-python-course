@@ -10,3 +10,17 @@ for n in nodes:
 
 tree.delete(9)
 tree.inorder()
+
+
+#######
+from node import Node
+left = Node(5)
+head = Node(9)
+right = Node(13)
+
+head.left = left
+head.right = right
+
+print(head)
+print(head.left)
+print(head.right)

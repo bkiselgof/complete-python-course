@@ -15,3 +15,5 @@ s.push(7)  # [7, 5]
 s.push(11)  # [11, 7, 5]
 print(s.pop())  # returns 11, left is [7, 5]
 print(s.pop())  # returns 7, left is [5]
+
+s.items
