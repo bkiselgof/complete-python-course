@@ -6,7 +6,7 @@ class TestFunctions(TestCase):
     def test_divide_result(self):
         dividend = 15
         divisor = 3
-        expected_result = 5.0
+        expected_result = 5
         self.assertAlmostEqual(divide(dividend, divisor), expected_result, delta=0.0001)
 
     def test_divide_negative(self):
