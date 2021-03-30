@@ -13,3 +13,10 @@ for counter, friend in enumerate(friends, start=1):
 friends = ["Rolf", "John", "Anna"]
 print(list(enumerate(friends)))  # [(0, 'Rolf'), (1, 'John'), (2, 'Anna')]
 print(dict(enumerate(friends)))  # {0: 'Rolf', 1: 'John', 2: 'Anna'}
+
+
+[(idx, friend) for idx, friend in enumerate(friends, start=1)]
+
+[(idx, friend) for idx, friend in enumerate(friends, start=1)]
+
+{idx:friend for idx, friend in enumerate(friends, start=1)}
